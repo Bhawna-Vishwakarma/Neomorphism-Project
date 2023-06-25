@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*::after,*::before,*{
+    box-sizing: border-box;
+}
+.wrap{
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+body{
+    background-color: #e3e3fc;
+}
+.box_1{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(75deg, rgb(244 20 126) 290px,#16a9f4de);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.circle_1,.circle_2{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+.circle_1{
+    background: linear-gradient(90deg,rgb(244, 20, 122, 50%) 20px,#fbf9fc);
+    box-shadow: 0px 20px 36px 7px rgb(202 6 95 / 90%), -3px 6px 82px -20px rgb(192 156 238 / 90%);
+}
+.circle_2{
+    background: linear-gradient(90deg,rgba(193, 130, 235, 0.5) 20px,#fbf9fc);
+    box-shadow: 0px 40px 0px 1px rgb(86 75 80 / 45%);
+}
+.icon_box{
+	height: 100px;
+	width: 50%;
+	margin: 60px auto;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color:  #d9d9ff;
+	box-shadow: 4px 3px 7px 1px rgb(220 201 201), -2px -2px 5px 3px white;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+.icon_box .icon {
+    height: 60px;
+    width: 11%;
+    background-color: #d9d9ff;
+    box-shadow: 4px 3px 5px rgb(167 165 165 / 40%), -2px -2px 6px 1px white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 5px;
+}
+.icon_box .icon:hover{
+	cursor: pointer;
+	box-shadow: 4px 3px 5px rgba(167, 165, 165,.4), -2px -2px 4px 1px white,4px 3px 3px rgb(167 165 165 / 40%) inset, -2px -2px 8px 2px #fff inset;	
+}

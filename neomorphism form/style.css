@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+*::after,*::before,*{
+	box-sizing: border-box;
+}
+body{
+	background-color: whitesmoke;
+}
+.wrap{
+	width: 1200px;
+	max-width: 100%;
+	margin: 40px auto;
+}
+.container{
+	height: 600px;
+	width: 100%;
+	background-color: lavender;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.box_1,.box_2{
+	height: 500px;
+	width: 45%;
+	background-color: rgb(239, 239, 247);
+	padding: 30px 45px;
+	font-size: 0;
+	box-shadow: 4px 3px 5px rgba(167, 165, 165,.4), -2px -2px 3px white;
+}
+.box_1 .sign_in,.sign_up{
+	height: 50px;
+	width: 50%;
+	display: inline-block;
+	background-color: rgb(239, 239, 247);
+	text-transform: uppercase;
+	font-size: 15px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bolder;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	box-shadow: 4px 3px 5px rgba(167, 165, 165,.4), -2px -2px 3px white;
+}
+.box_1 .sign_in{
+	border-radius: 10px 0  0 10px;
+	box-shadow: 4px 3px 5px rgba(167, 165, 165,.4), -2px -2px 4px 1px white,4px 3px 3px rgb(167,165,165,.4) inset, -2px -2px 8px 2px #fff inset;	
+}
+.box_1 .sign_up{
+	border-radius: 0 10px 10px 0;
+	color: rgb(17, 243, 156);
+}
+.box_1 .sign_up:hover,
+.box_1 button:hover,
+.box_1 .icon_box .icon:hover{
+	cursor: pointer;
+	box-shadow: 4px 3px 5px rgba(167, 165, 165,.4), -2px -2px 4px 1px white,4px 3px 3px rgb(167 165 165 / 40%) inset, -2px -2px 8px 2px #fff inset;	
+}
+.box_1 input,button{
+	height: 50px;
+	width: 100%;
+	border-radius: 10px;
+	margin: 40px 0 0 0;
+	padding: 0 20px;
+	background-color: rgb(239, 239, 247);
+	border: none;
+	outline: none;
+}
+.box_1 input{
+	box-shadow: 4px 3px 3px rgb(167 165 165 / 40%) inset, -2px -2px 8px 2px #fff inset;	
+}
+.box_1 button{ 
+	box-shadow: 4px 3px 5px rgba(167, 165, 165,.4), -2px -2px 4px 1px white;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+}
+.box_1 .icon_box{
+	height: 50px;
+	width: 100%;
+	margin: 43px 0 0 0;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.box_1 .icon_box .icon{
+	height: 50px;
+	width: 18%;
+	background-color: rgb(239, 239, 247);
+	box-shadow: 4px 3px 5px rgba(167, 165, 165,.4), -2px -2px 4px 1px white;
+	font-size: 25px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 10px;
+}
+/*---------------- box_2 styling ------------------*/
+.box_2 .sign_in,.sign_up{
+	height: 50px;
+	width: 50%;
+	display: inline-block;
+	background-color: rgb(239, 239, 247);
+	text-transform: uppercase;
+	font-size: 15px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bolder;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	box-shadow: 4px 3px 5px rgba(167, 165, 165,.4), -2px -2px 3px white;
+}
+.box_2 .sign_up{
+	border-radius: 0 10px 10px 0;
+	box-shadow: 4px 3px 5px rgba(167, 165, 165,.4), -2px -2px 4px 1px white,4px 3px 3px rgb(167 165 165 / 40%) inset, -2px -2px 8px 2px #fff inset;	
+}
+.box_2 .sign_in{
+	border-radius: 10px 0  0 10px;
+	color: rgb(17, 243, 156);
+}
+.box_2 .sign_in:hover,
+.box_2 button:hover{
+	cursor: pointer;
+	box-shadow: 4px 3px 5px rgba(167, 165, 165,.4), -2px -2px 4px 1px white,4px 3px 3px rgb(167 165 165 / 40%) inset, -2px -2px 8px 2px #fff inset;	
+}
+.box_2 input,button{
+	height: 50px;
+	width: 100%;
+	border-radius: 10px;
+	margin: 40px 0 0 0;
+	padding: 0 20px;
+	background-color: rgb(239, 239, 247);
+	border: none;
+	outline: none;
+}
+.box_2 input{
+	box-shadow: 4px 3px 3px rgb(167 165 165 / 40%) inset, -2px -2px 8px 2px #fff inset;	
+}
+.box_2 button{ 
+	box-shadow: 4px 3px 5px rgba(167, 165, 165,.4), -2px -2px 4px 1px white;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+}
