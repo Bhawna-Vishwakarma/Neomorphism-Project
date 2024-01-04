@@ -23,7 +23,9 @@ The Neomorphism Project is a web project that demonstrates the creation of the p
 ## Usage
 
 1. Clone the repository:
+   ```shell
    git clone https://github.com/Bhawna-Vishwakarma/Neomorphism-Project.git
+
 
 Open the project in your preferred web browser.
 
@@ -33,13 +35,14 @@ Examine the CSS styles to understand how the box-shadow property is used to crea
 
 Modify the code and experiment with different settings to create your own neomorphic designs.
 
-Contributing
+# Contributing
 
 Contributions are welcome! If you have any suggestions, improvements, or additional neomorphic designs to add to the project, please feel free to open an issue or submit a pull request.
 
 
-Contact
+# Contact
 
 If you have any questions or want to reach out regarding this project, you can contact me at bvishwakarma1008@gmail.com. You can also find more of my projects on GitHub.
+
 
 Thank you for checking out the Neomorphism Learning Project!
